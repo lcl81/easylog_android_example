@@ -125,6 +125,8 @@ int main(int argc, char *argv[])
     easylog_vencoder_log("test thread vencoder!");
     easylog_algrithm_log("test thread algrithm!");
     easylog_threadid_log("test thread threadid!");
+
+    el::Helpers::uninstallPreRollOutCallback();
     return 0;
 }
 
